@@ -1,5 +1,9 @@
 # ADV360-PRO-ZMK
 
+## Configuration
+
+For setup with GUI, see <https://kinesiscorporation.github.io/Adv360-Pro-GUI/>.
+
 ## To build Firmware in GitHub Actions
 
 ### Setup
@@ -22,6 +26,7 @@ Either Podman or Docker is required, Podman is preferred if both are present.\
 Make is also required
 
 #### Windows specific
+
 If compiling on Windows use WSL2 and Docker [Docker Setup Guide](https://docs.docker.com/desktop/windows/wsl/).\
 Install make using `sudo apt-get install make`.\
 The repository can be cloned directly into the WSL2 instance or accessed through the C: mount point WSL provides by default (`/mnt/c/path-to-repo`).
@@ -42,5 +47,5 @@ Follow the programming instruction on page 8 of the [Quick Start Guide](https://
 ## Other support
 
 Further support resources can be found on Kinesis.com
-https://kinesis-ergo.com/support/kb360pro/#firmware-updates
-https://kinesis-ergo.com/support/kb360pro/#manuals
+<https://kinesis-ergo.com/support/kb360pro/#firmware-updates>
+<https://kinesis-ergo.com/support/kb360pro/#manuals>
